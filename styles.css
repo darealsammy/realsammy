@@ -1,19 +1,1 @@
-body {
-    height: 200vh; /* Make the body taller to enable scrolling */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.spaced {
-    letter-spacing: 2em;
-    font-size: 24px;
-    line-height: 2;
-    opacity: 0; /* Start invisible */
-    transition: opacity 1s ease; /* Smooth transition */
-}
-
-.visible {
-    opacity: 1; /* Make it visible */
-}
 
