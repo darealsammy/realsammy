@@ -1,11 +1,31 @@
 body {
-  background-image: url("https://t4.ftcdn.net/jpg/01/28/98/53/360_F_128985367_mNdX0b56w6OcgiyUDnZwukpK1bkpfWwI.jpg");
+  background-image: url("https://t4.ftcdn.net/jpg/01/28/98/53/360_F_128985367_mNdX0b56w6OcgiyUDnZwukpK1bkpfWwI.jpg"); 
+  object-fit: fill;
+  text-align: center;
 }
 
-.spaced {
+.header {
   color: white;
-  text-align: center; 
-  font-weight:bolder;
+  text-align: center;
+}
+p {
+  color: white;
+  font-style: oblique;
+}
+a {
+  display: inline-block; /* Centering requires a block element */
+  border-style: solid;
+  border-color: #4dbcff;
+  border-radius: 10px;
+  padding: 3px;
+  text-decoration: none;
+  color: #5cc0fc;
+  text-align: center; /* Center text within the link */
+  margin: 0 auto; /* Center the link itself */
+  box-shadow: 0 0 10px #4dbcff, 0 0 20px #4dbcff; /* Glowing effect */
+  transition: box-shadow 0.3s; /* Smooth transition for the glow */
 }
 
-
+a:hover {
+  box-shadow: 0 0 20px #4dbcff, 0 0 30px #4dbcff; /* Enhance glow on hover */
+}
